@@ -1,6 +1,7 @@
 # 🔍 FIPE Table - Vehicle Price Lookup
 
-This project is a **Java command-line application** that allows you to **check vehicle prices from the FIPE Table** 🇧🇷, a national reference for average vehicle prices in Brazil, widely used in negotiations and market evaluations.
+This project is a Java command-line application that allows you to check vehicle prices from the FIPE Table <img src="https://upload.wikimedia.org/wikipedia/en/0/05/Flag_of_Brazil.svg" width="18" alt="Brazil Flag">, a national reference for average vehicle prices in Brazil, widely used in negotiations and market evaluations.
+
 
 ## 📦 Project Structure
 
