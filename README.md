@@ -90,6 +90,6 @@ java -cp out br.com.alura.project.FipeTable.main.Main
  --- 
  
 📚 Credits
-This project was developed as part of study activities based on the course " Java: Working with lambdas, streams and Spring Framework" provided by Alura on consuming APIs with Java.
+This project was developed as part of study activities based on the course "Java: Working with lambdas, streams and Spring Framework" provided by Alura on consuming APIs with Java.
 
 
