@@ -27,7 +27,7 @@ br.com.alura.project.FipeTable
 - Display market price values for each year/model combination
 
 ## 🧪 Example Usage
-
+```
 *** OPTIONS ***
 1 - Car
 2 - Motorcycle
@@ -54,14 +54,17 @@ Enter the model code to check values:
 Checking values for available years:
 2023 Gasoline -> 2023 - Fiat Argo - Gasoline - R$ 75,890.00
 2022 Gasoline -> 2022 - Fiat Argo - Gasoline - R$ 69,320.00
+```
+---
+🌐 **About the FIPE API**
 
+This application consumes data from the public API provided by **Portal FIPE**, which offers up-to-date information on vehicles in categories such as cars, motorcycles, and trucks.
 
-🌐 About the FIPE API
-This application consumes data from the public API provided by Portal FIPE, which offers up-to-date information on vehicles in categories such as cars, motorcycles, and trucks.
+- **Base URL:** `https://parallelum.com.br/fipe/api/v1`
 
-Base URL: https://parallelum.com.br/fipe/api/v1
+- Requests follow the REST standard using Java's built-in `HttpClient` (Java 11+).
 
-Requests follow the REST standard using Java's built-in HttpClient (Java 11+)
+---
 
 🛠 Technologies Used
 Java 17+
@@ -72,16 +75,21 @@ HttpClient (java.net.http) for making HTTP requests
 
 Maven/Gradle (optional for dependency management)
 
+---
 
 💡 How to Run
-Clone the repository:
+1. Clone the repository:
 git clone https://github.com/your-username/your-repository.git
 
-Compile and run:
+2. Compile and run:
 javac -d out src/br/com/alura/project/FipeTable/**/*.java
 java -cp out br.com.alura.project.FipeTable.main.Main
 
+* Note: Make sure Java is properly installed and configured in your system’s PATH.
+* 
+ --- 
+ 
 📚 Credits
-This project was developed as part of study activities based on the course provided by Alura on consuming APIs with Java.
+This project was developed as part of study activities based on the course " Java: Working with lambdas, streams and Spring Framework" provided by Alura on consuming APIs with Java.
 
 
