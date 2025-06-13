@@ -4,7 +4,7 @@ This project is a Java command-line application that allows you to check vehicle
 
 
 ## 📦 Project Structure
-
+```
 br.com.alura.project.FipeTable
 ├── main
 │ └── Main.java # Main application entry point
@@ -16,7 +16,7 @@ br.com.alura.project.FipeTable
 └── service # Logic for API communication
 ├── ApiConsumption.java
 └── ConvertingData.java # (Reserved for data conversion utilities)
-
+```
 
 ## ⚙️ Features
 
